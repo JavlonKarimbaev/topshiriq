@@ -1,0 +1,78 @@
+.ball{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: fixed;
+    animation-duration: 15s;
+    background-size: cover;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-name: identifie;
+}
+
+body{
+    width: 10000000px;
+}
+@keyframes identifie {
+    0%{
+        top: 40%;
+        left: 10px;
+        transform: rotate(0deg);
+    }
+
+    15%{
+        top: 30px;
+        left: 200px;
+        transform: rotate(90deg);
+    }
+
+    25%{
+        top: 30px;
+        left: 400px;
+        transform: rotate(180deg);
+    }
+    35%{
+        top: 30px;
+        left: 600px;
+        transform: rotate(270deg);
+    }
+    45%{
+        top: 30px;
+        left: 800px;
+        transform: rotate(360deg);
+    }
+    55%{
+        top: 30px;
+        left: 1000px;
+        transform: rotate(450deg);
+    }
+
+    65%{
+        top: 30px;
+        left: 1200px;
+        transform: rotate(540deg);
+    }
+
+    75%{
+        top: 30px;
+        left: 1400px;
+        transform: rotate(630deg);
+    }
+    85%{
+        top: 30px;
+        left: 1600px;
+        transform: rotate(720deg);
+    }
+    95%{
+        top: 30px;
+        left: 1800px;
+        transform: rotate(810deg);
+    }
+
+    100%{
+        top: 30px;
+        left: 1800px;
+        transform: rotate(1000deg);
+    }
+}
